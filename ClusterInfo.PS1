@@ -1,4 +1,4 @@
-Function Invoke-LogCollector{
+Function Invoke-Get-ClusterInfo{
 $StartTime = Get-Date
 New-Item C:\ClusterInfo -Type directory 	#Create the workbench directory
 New-Item C:\ClusterInfo\ScriptTime.txt -ItemType file
