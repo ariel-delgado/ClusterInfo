@@ -1,4 +1,3 @@
-Function Invoke-LogCollector{
 $StartTime = Get-Date
 New-Item C:\ClusterInfo -Type directory 	#Create the workbench directory
 New-Item C:\ClusterInfo\ScriptTime.txt -ItemType file
@@ -1094,4 +1093,3 @@ Start-Sleep -s 5
 
 $EndTime = Get-Date
 Add-Content C:\ClusterInfo\ScriptTime.txt "Finished:  $EndTime"
-}
